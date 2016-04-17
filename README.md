@@ -10,15 +10,19 @@ Electiva de Area II, Inmobiliaria 161, Equipo Azul
 
 ## Instalación 
 
-      $ git clone https://github.com/arodu/inm_azul
-      $ cd inm_azul
-      $ npm install
-      $ bower install
+```bash
+$ git clone https://github.com/arodu/inm_azul
+$ cd inm_azul
+$ npm install
+$ bower install
+```
 
 ## Ejecución
 
-      $ cd inm_azul
-      $ node index.js
+```bash
+$ cd inm_azul
+$ node index.js
+```
 
 ## Bibliotecas
 
