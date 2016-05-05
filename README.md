@@ -5,7 +5,7 @@ Electiva de Area II, Inmobiliaria 161, Equipo Azul
 ## Descargar
 
 * [Node.js](https://nodejs.org/en/) - Un entorno en tiempo de ejecución de JavaScript incorporado en el motor JavaScript V8 de Chrome
-* [MongoDB](https://www.mongodb.org/) - MongoDB es la base de datos de la próxima generación que le permite crear aplicaciones nunca antes posible
+* [MySQL](https://www.mysql.com/) - La base de datos de código abierto más popular del mundo
 
 
 ## Instalación 
@@ -28,4 +28,4 @@ $ node index.js
 
 * [express](http://expressjs.com/) - Infraestructura web rápida, minimalista y flexible para Node.js
 * [Twig.js](https://github.com/justjohn/twig.js/wiki) -  una implementación del lenguaje de plantillas Twig en JavaScript
-* [mongoose](http://mongoosejs.com/) - Modelado elegante de objetos MongoDB para Node.js
+* [node-mysql](https://github.com/felixge/node-mysql) - Una inplementación pura del cliente que implementa el protocolo MySQL en Node.js

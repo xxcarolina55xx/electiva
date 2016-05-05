@@ -8,7 +8,6 @@
 var Twig = require("twig"),
 	express = require('express'),
 	app = express(),
-	mongoose = require('mongoose'),
 	router = require("./config/router.js"),
 	// model = require("./app/models/model.js"),
 	// controller = require("./app/controllers/controller.js"),
@@ -19,8 +18,5 @@ var Twig = require("twig"),
 // y ademas se puede usar para hacer modulos inteligentes
 twig(app);
 router(app);
-// model(mongoose);
-// controller(model);
-// mongoose.connect('mongodb://localhost/test');
 
-app.listen(80);
+app.listen(8080);

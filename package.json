@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
-    "mongoose": "^4.4.12",
+    "mysql": "felixge/node-mysql",
     "twig": "^0.8.9"
   }
 }
