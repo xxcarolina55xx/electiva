@@ -4,7 +4,7 @@ module.exports = new class {
 	constructor() {
 		this.crear();
 	}
-	// crear base de datos
+	// crear tabla
 	crear() {
 		mysql.query(
 			// esto es una concatenacion ya que javascript no es lo 
@@ -29,5 +29,14 @@ module.exports = new class {
 			else
 				console.log("la tabla usuarios ya existe");
 		});
+	}
+	registrar() {
+		console.log("luego se creara");
+	}
+	entrar() {
+		console.log("luego se creara");
+	}
+	ver() {
+		console.log("luego se creara");
 	}
 }

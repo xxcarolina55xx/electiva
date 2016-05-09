@@ -4,7 +4,7 @@ module.exports = new class {
 	constructor() {
 		this.crear();
 	}
-	// crear base de datos
+	// crear tabla
 	crear() {
 		mysql.query(
 			// esto es una concatenacion ya que javascript no es lo 
@@ -21,5 +21,17 @@ module.exports = new class {
 			else
 				console.log("la tabla comentarios ya existe");
 		});
+	}
+	comentar() {
+		console.log("luego se creara");
+	}
+	eliminar() {
+		console.log("luego se creara");
+	}
+	ver() {
+		console.log("luego se creara");
+	}
+	ver_de_inmobiliaria() {
+		console.log("luego se creara");
 	}
 }

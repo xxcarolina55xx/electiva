@@ -4,7 +4,7 @@ module.exports = new class {
 	constructor() {
 		this.crear();
 	}
-	// crear base de datos
+	// crear tabla
 	crear() {
 		mysql.query(
 			// esto es una concatenacion ya que javascript no es lo 
