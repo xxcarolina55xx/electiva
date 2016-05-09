@@ -11,7 +11,9 @@ var Twig = require("twig"),
 	router = require("./config/router.js"),
 	// model = require("./app/models/model.js"),
 	// controller = require("./app/controllers/controller.js"),
-	twig = require("./config/twig.js");
+	twig = require("./config/twig.js"),
+	//mysql = require("./config/mysql.js");
+	models = require('./config/models.js');
 
 // inversion de control, en esta tecnica se le pasa el control del
 // programa a un modulo externo para evitar codigos muy complejo
@@ -20,3 +22,4 @@ twig(app);
 router(app);
 
 app.listen(8080);
+console.log("servidor alojado en localhost:8080")
