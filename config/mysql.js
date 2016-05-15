@@ -1,4 +1,5 @@
 // archivo de configuracion de mysql
+"use strict";
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({

@@ -1,5 +1,6 @@
 // la siguiente funcion es exportada, ella recibe la instancia
 // de expressjs
+"use strict";
 
 var dbs = require("../app/models/dbs.js");
 var telefonos = require("../app/models/telefonos.js");

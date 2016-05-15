@@ -5,6 +5,8 @@
 // y configuracion de nuestra aplicacion web, nuestra area de trabajo
 // es la carpeta app
 
+"use strict";
+
 var Twig = require("twig"),
 	express = require('express'),
 	app = express(),
@@ -21,5 +23,5 @@ var Twig = require("twig"),
 twig(app);
 router(app);
 
-app.listen(8080);
+app.listen(80);
 console.log("servidor alojado en localhost:8080")

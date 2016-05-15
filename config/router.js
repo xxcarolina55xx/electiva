@@ -4,6 +4,8 @@
 
 // la siguiente funcion es exportada, ella recibe la instancia
 // de expressjs
+"use strict";
+
 module.exports = (app) => {
 	// y aqui simplemente programamos los router
 	app.get('/', function(req, res){
