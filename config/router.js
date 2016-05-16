@@ -13,4 +13,12 @@ module.exports = (app) => {
 			message : "Hello World"
 		});
 	});
+	app.get('/a', function(req, res){
+		res.render('hi.twig', {
+			message : "Hello World"
+		});
+	});
+	app.get('/publicacion', function(req, res){
+		res.render('publicacion.twig');
+	});
 }
