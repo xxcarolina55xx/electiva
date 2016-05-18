@@ -1,3 +1,4 @@
+"use strict";
 var mysql = require("../../config/mysql.js")
 
 module.exports = new class {

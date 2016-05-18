@@ -11,7 +11,7 @@ var Twig = require("twig"),
 	express = require('express'),
 	app = express(),
 	router = require("./config/router.js"),
-	twig = require("./config/twig.js");
+	twig = require("./config/twig.js"),
 	port = 8080,
 	models = require('./config/models.js');
 
