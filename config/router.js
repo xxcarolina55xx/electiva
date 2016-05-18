@@ -6,19 +6,27 @@
 // de expressjs
 "use strict";
 
-module.exports = (app) => {
-	// y aqui simplemente programamos los router
-	app.get('/', function(req, res){
-		res.render('index.twig', {
-			message : "Hello World"
-		});
+var express = require('express'),
+	app = express(),
+	puerto = 8080,
+	twig = require("./twig.js");
+
+// y aqui simplemente programamos los router
+app.get('/', function(req, res){
+	res.render('index.twig', {
+		message : "Hello World"
 	});
-	app.get('/a', function(req, res){
-		res.render('hi.twig', {
-			message : "Hello World"
-		});
+});
+app.get('/a', function(req, res){
+	res.render('hi.twig', {
+		message : "Hello World"
 	});
-	app.get('/publicacion', function(req, res){
-		res.render('publicacion.twig');
-	});
-}
+});
+app.get('/publicacion', function(req, res){
+	res.render('publicacion.twig');
+});
+
+app.listen(puerto);
+console.log("servidor alojado en localhost:" + puerto)
+
+twig(app);
