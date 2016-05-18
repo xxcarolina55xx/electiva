@@ -5,6 +5,7 @@
 // la siguiente funcion es exportada, ella recibe la instancia
 // de expressjs
 "use strict";
+var path = require("path");
 
 var express = require('express'),
 	app = express(),
@@ -26,6 +27,14 @@ app.get('/publicacion', function(req, res){
 	res.render('publicacion.twig');
 });
 
+/*
+app.get('/css/MyCSS.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/MyCSS.css');
+});
+*/
+
+// configuraciones
+//app.use(express.static('/public'));
 app.listen(puerto);
 console.log("servidor alojado en localhost:" + puerto)
 

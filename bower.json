@@ -12,6 +12,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "4.0"
+  },
+  "resolutions": {
+    "bootstrap": "4.0"
   }
 }
