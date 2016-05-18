@@ -1,5 +1,8 @@
 // la siguiente funcion es exportada, ella recibe la instancia
 // de expressjs
+
+"use strict";
+
 module.exports = (app) => {
 	// el siguiente codigo configura twig en expressjs
 	app.set("twig options", {

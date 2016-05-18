@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inmobiliaria azul</title>
+		<meta charset="utf-8">
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    
+	    {% block css %}{% endblock %}
+	    <style>
+	    body{
+	    	width: 100%;
+	    	height: auto;
+	    }
+	     .menu{
+	     	width: 20%;
+	     	height: auto;
+	     	overflow: auto;
+			float: left;
+		    padding: 0;
+    		margin: 0;
+		}
+	     .nosotros{
+	     	font-size: 12px;
+	     }
+	     .espacioArriba{
+	     	margin-top: 10%;
+	     }
+	     .publicacion{
+	     	width: 80%;
+	     	height: auto;
+	     	overflow: auto;
+	    }
+	    .login{
+	    	float: right;
+	    	margin-top: 2%; /*Ajustar al final*/
+			margin-right: 2%;
+
+	    }
+	    .sidebar-collapse{
+	    	height: auto;
+	    }
+	    #myCarousel{
+	    	margin-left: 20%;
+	    }
+	    .DesPre{
+		    text-align: justify;
+		    position: absolute;	    
+		}
+
+
+
+		.encabezado{
+			/*color*/
+		}
+		.LetraEspecial{
+			font-size: 1.2em;
+		}
+		.LetraObscura{
+			font-weight: bold;			
+		}
+		ul li ul li{
+			list-style: none;
+		}
+	    </style>
+	</head>
+	<body>
+<!-- /* ENCABEZADO */ --> 
+<div class="jumbotron">
+  <h1>INMOBILIARIA AZUL <img src="img/CASSA.png"></h1>
+  
+  <div class="login">
+	  <a class="btn btn-primary btn-lg" href="#" role="button">SING IN</a>
+	  <a class="btn btn-primary btn-lg" href="#" role="button">SING UP</a>  	
+  </div>
+
+</div>
+
+<!-- /* FIN ENCABEZADO */ --> 
+
+
+<!-- /* ARTICLE */ --> 
+<div class="menu col-md-4">
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+	            <li>
+	                <a href="#"><i class='glyphicon glyphicon-home'></i> <span>Tipo De Inmueble</span><i class="glyphicon glyphicon-menu-down"></i></a>
+	                <ul class="treeview-menu">
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Casa</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Apartamento</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Town-House</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Anexo</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Otros</a></li>
+	                </ul>
+	            </li>
+            	<hr align="center" style="color: #CCCCCC;" noshade="noshade" size="1" width="100%" /><!--linea-->
+ 	            <li>
+	                <a href="#"><i class='glyphicon glyphicon-briefcase'></i> <span>Tipo De Negociación</span><i class="glyphicon glyphicon-menu-down"></i></a>
+	                <ul class="treeview-menu">
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Venta</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Alquiler</a></li>
+	                </ul>
+	            </li>
+            	<hr align="center" style="color: #CCCCCC;" noshade="noshade" size="1" width="100%" /><!--linea-->
+ 	            <li>
+	                <a href="#"><i class='glyphicon glyphicon-screenshot'></i> <span>Ubicación Del Inmueble</span><i class="glyphicon glyphicon-menu-down"></i></a>
+	                <ul class="treeview-menu">
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Pais</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Estado</a></li>
+	                    <li><a href="#" class="glyphicon glyphicon-share-alt"> Cuidad</a></li>
+	                </ul>
+	            </li>
+            </ul>
+            	<hr align="center" style="color: #CCCCCC;" noshade="noshade" size="1" width="100%" /><!--linea-->
+
+            <footer class="nosotros espacioArriba">
+            	<center> 
+	            	<p class="LetraEspecial LetraObscura">Empresas CassaPlan C.A </p><br>
+					<p class="LetraObscura">Comunicate con Nosotros</p>
+	            	<p>0414-222.66.99</p>
+	            	<br>
+	            	<p class="LetraObscura">Horarios de Trabajo</p> 
+	               	<p>De Lunes a Viernes 7:00Am A 6:00Pm</p>
+	               	<br>
+	               	<p class="LetraObscura">Siguenos en: </p>
+	               	
+	               	<img src="img/f.png">
+	               	<img src="img/g2.png">
+	               	<img src="img/s.png">
+	               	<img src="img/t.png">
+	               	<img src="img/y.png">
+	               	<br><br>
+				 </center>	
+			</footer>
+        </div>
+    </nav>  
+</div>
+<!-- /* FIN ARTICLE */ --> 
+
+<!-- 
+		<p>texto original :D</p>
+		{% block body %}{% endblock %}
+-->
+
+	{% block js %}{% endblock %}
+
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

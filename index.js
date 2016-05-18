@@ -5,16 +5,15 @@
 // y configuracion de nuestra aplicacion web, nuestra area de trabajo
 // es la carpeta app
 
+"use strict";
+
 var Twig = require("twig"),
 	express = require('express'),
 	app = express(),
 	router = require("./config/router.js"),
-	// model = require("./app/models/model.js"),
-	// controller = require("./app/controllers/controller.js"),
-	twig = require("./config/twig.js"),
-	//mysql = require("./config/mysql.js");
+	twig = require("./config/twig.js");
+	port = 8080,
 	models = require('./config/models.js');
-	port = 8080;
 
 // inversion de control, en esta tecnica se le pasa el control del
 // programa a un modulo externo para evitar codigos muy complejo

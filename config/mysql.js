@@ -1,4 +1,5 @@
 // archivo de configuracion de mysql
+"use strict";
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({
@@ -19,21 +20,3 @@ module.exports.query = (sql, callback) => {
 	connection.query(sql, callback);
 
 }
-/*console.log(connection);
-
-console.log(dbs(connection));
-*/
-
-
-
-
-
-/*
-connection.query("CREATE TABLE `a` (`id` int(11) NOT NULL, `expediente` varchar(15) COLLATE utf8_spanish_ci NOT NULL, `distribucion` varchar(15) COLLATE utf8_spanish_ci NOT NULL, `sala` varchar(15) COLLATE utf8_spanish_ci NOT NULL, `fecha` varchar(15) COLLATE utf8_spanish_ci NOT NULL, `id_usuario` int(11) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;", function(err, rows, fields) {
-	if (!err)
-		console.log('The solution is: ', rows);
-	else
-		console.log('Error while performing Query.');
-});
-*/
-//connection.end();
