@@ -11,11 +11,11 @@ module.exports = new class {
 			// suficientemente inteligente como para ver un
 			// string de varias lineas
 			"CREATE TABLE `comentarios` (" +
-				"`id` int(11) NOT NULL," +
-				"`id_pregunta` int(11) NOT NULL," +
-				"`id_respuesta` int(11) NOT NULL," +
-				"`id_usuario` int(11) NOT NULL" +
-			") ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;", function(err) {
+				"`id` INT NOT NULL AUTO_INCREMENT," +
+				"`id_inmueble INT NOT NULL," +
+				"`comentario` varchar(100) NOT NULL," +
+				"PRIMARY KEY (`id`)" +
+			") ENGINE=InnoDB;", (err) => {
 			if (!err)
 				console.log("creando la tabla comentarios");
 			else

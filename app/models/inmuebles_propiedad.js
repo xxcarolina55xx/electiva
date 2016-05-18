@@ -8,25 +8,21 @@ module.exports = new class {
 	crear() {
 		mysql.query(
 			// esto es una concatenacion ya que javascript no es lo 
-			// suficientemente INTeligente como para ver un
+			// suficientemente inteligente como para ver un
 			// string de varias lineas
-			"CREATE TABLE `usuarios` (" +
+			"CREATE TABLE `inmuebles_propiedad` (" +
 				"`id` INT NOT NULL AUTO_INCREMENT," +
-				"`nombres` VARCHAR(30) NOT NULL," +
-				"`apellidos` VARCHAR(30) NOT NULL," +
-				"`cedula` INT(8) NOT NULL," +
-				"`usuario` VARCHAR(30) NOT NULL," +
-				"`contrasena` VARCHAR(30) NOT NULL," +
-				"`id_tipo` INT NOT NULL," +
-				"`email` VARCHAR(50) NOT NULL," +
-				"`foto` VARCHAR(100) NOT NULL," +
+				"`id_usuario` INT NOT NULL," +
+				"`id_tipo_inmueble` INT NOT NULL," +
+				"`id_tipo_adquisicion` INT NOT NULL," +
 				"PRIMARY KEY (`id`)," +
-				"INDEX (`id_tipo`)" +
+				"INDEX (`id_inmueble`)," +
+				"INDEX (`id_tipo_adquisicion`)" +
 			") ENGINE=InnoDB;", (err) => {
 			if (!err)
-				console.log("creando la tabla usuarios");
+				console.log("creando la tabla inmuebles_propiedad");
 			else
-				console.log("la tabla usuarios ya existe");
+				console.log("la tabla inmuebles_propiedad ya existe");
 		});
 	}
 	registrar() {

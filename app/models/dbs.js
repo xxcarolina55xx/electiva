@@ -6,11 +6,12 @@ module.exports = new class {
 	}
 	// crear base de datos
 	crear() {
-		mysql.query("CREATE DATABASE `inm_azul` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;", function(err) {
+		mysql.query("CREATE DATABASE `inm_azul` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;", (err) => {
 			if (!err)
-				console.log("creando base de datos");
+				console.log("creando base de datos inm_azul");
 			else
-				console.log("la base de datos inm_azul ya existe");
+				// evitar que inprima el objeto con un string vacio
+				console.warn("" + err);
 		});
 	}
 }

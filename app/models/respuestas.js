@@ -11,9 +11,12 @@ module.exports = new class {
 			// suficientemente inteligente como para ver un
 			// string de varias lineas
 			"CREATE TABLE `respuestas` (" +
-				"`id` int(11) NOT NULL," +
-				"`pregunta` varchar(100) NOT NULL" +
-			") ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;", function(err) {
+				"`id` INT NOT NULL AUTO_INCREMENT," +
+				"`id_comentario` INT NOT NULL," +
+				"`respuesta` VARCHAR(100) NOT NULL," +
+				"PRIMARY KEY (`id`)," +
+				"INDEX (`id_comentario`)" +
+			") ENGINE=InnoDB;", (err) => {
 			if (!err)
 				console.log("creando la tabla respuestas");
 			else
