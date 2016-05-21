@@ -6,10 +6,12 @@
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
 	    
 	    {% block css %}{% endblock %}
-	    <style>
+<style>
+	    @import url(https://fonts.googleapis.com/css?family=Coming+Soon);
 	    body{
 	    	width: 100%;
 	    	height: auto;
+	    	background: #EEEEEE;
 	    }
 	     .menu{
 	     	width: 20%;
@@ -21,6 +23,7 @@
 		}
 	     .nosotros{
 	     	font-size: 12px;
+	     	color: black;
 	     }
 	     .espacioArriba{
 	     	margin-top: 10%;
@@ -34,10 +37,9 @@
 	    	float: right;
 	    	margin-top: 2%; /*Ajustar al final*/
 			margin-right: 2%;
-
 	    }
-	    .sidebar-collapse{
-	    	height: auto;
+	    .btn{
+
 	    }
 	    #myCarousel{
 	    	margin-left: 20%;
@@ -46,9 +48,10 @@
 		    text-align: justify;
 		    position: absolute;	    
 		}
-
-
-
+		.a{
+			color: black;
+			font-family: 'Coming Soon', cursive;
+		}
 		.encabezado{
 			/*color*/
 		}
@@ -56,26 +59,50 @@
 			font-size: 1.2em;
 		}
 		.LetraObscura{
-			font-weight: bold;			
+			font-weight: bold;
 		}
 		ul li ul li{
 			list-style: none;
 		}
+		.centrado{
+			margin-left: 35%;
+		}
+		.letra{
+			font-family: 'Coming Soon', cursive;
+		}
+		.jumbotron{
+			background: white;
+			font-family: 'Coming Soon', cursive;
+		}
+		.sidebar-collapse{
+			background: #2F77AC;
+			height: auto;
+			width: 100%;
+		}
+		.caption{
+			text-align: justify;
+		}
 	    </style>
+	<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
 <!-- /* ENCABEZADO */ --> 
 <div class="jumbotron">
-  <h1>INMOBILIARIA AZUL <img src="img/CASSA.png"></h1>
-  
+  <div class="centrado"> 
+  	  <img src="img/CASSA.png">
+	<!--  <br>
+	  <h1>INMOBILIARIA AZUL </h1> -->
+  </div>
   <div class="login">
-	  <a class="btn btn-primary btn-lg" href="#" role="button">SING IN</a>
-	  <a class="btn btn-primary btn-lg" href="#" role="button">SING UP</a>  	
+	  <a class="btn btn-primary btn-lg" href="http://localhost:8080/#" role="button">SING IN</a>
+	  <a class="btn btn-primary btn-lg" href="http://localhost:8080/#" role="button">SING UP</a>  	
   </div>
 
 </div>
 
 <!-- /* FIN ENCABEZADO */ --> 
+
 
 
 <!-- /* ARTICLE */ --> 
