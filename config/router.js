@@ -35,6 +35,7 @@ app.get('/css/MyCSS.css', function(req, res){
 
 // configuraciones
 //app.use(express.static('/public'));
+app.use('/public',  express.static( path.join(__dirname, '/public')));
 app.listen(puerto);
 console.log("servidor alojado en localhost:" + puerto)
 
