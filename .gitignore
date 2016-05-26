@@ -1,3 +1,6 @@
 node_modules/
 public/
 github/
+!public/inm_azul/*
+!public/inm_azul/css/*
+!public/inm_azul/img/*
