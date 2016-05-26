@@ -3,10 +3,9 @@
 	<head>
 		<title>Inmobiliaria azul</title>
 		<meta charset="utf-8">
-	    <link href="/public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	    <!--link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen"--> 
-
-	    {% block css %}{% endblock %}
+	    {% block css %}
+	    	<link href="/public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	    {% endblock %}
 <style>
 	    @import url(data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdDb21pbmcgU29vbic7CiAgZm9udC1zdHlsZTogbm9ybWFsOwogIGZvbnQtd2VpZ2h0OiA0MDA7CiAgc3JjOiBsb2NhbCgnQ29taW5nIFNvb24nKSwgbG9jYWwoJ0NvbWluZ1Nvb24nKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9jb21pbmdzb29uL3Y2L215Ymx5T3ljTW5QTUdqZlBHLUR6UDUwRUFWeHQwRzBiaUVudHA0M1F0NkUudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0K);
 	    body{
@@ -157,11 +156,11 @@
 	               	<br>
 	               	<p class="LetraObscura">Siguenos en: </p>
 	               	
-	               	<img src="img/f.png">
-	               	<img src="img/g2.png">
-	               	<img src="img/s.png">
-	               	<img src="img/t.png">
-	               	<img src="img/y.png">
+	               	<img src="/public/inm_azul/img/f.png">
+	               	<img src="/public/inm_azul/img/g2.png">
+	               	<img src="/public/inm_azul/img/s.png">
+	               	<img src="/public/inm_azul/img/t.png">
+	               	<img src="/public/inm_azul/img/y.png">
 	               	<br><br>
 				 </center>	
 			</footer>
@@ -170,13 +169,9 @@
 </div>
 <!-- /* FIN ARTICLE */ --> 
 
-<!-- 
-		<p>texto original :D</p>
-		{% block body %}{% endblock %}
--->
-
-	{% block js %}{% endblock %}
-	<script src="/public/jquery/dist/jquery.min.js"></script>
-	<script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+	{% block js %}
+		<script src="/public/jquery/dist/jquery.min.js"></script>
+		<script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+	{% endblock %}
 </body>
 </html>
