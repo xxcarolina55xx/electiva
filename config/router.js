@@ -35,7 +35,12 @@ app.get('/css/MyCSS.css', function(req, res){
 
 // configuraciones
 //app.use(express.static('/public'));
+app.use('/public', express.static(path.resolve("./public")));
 app.listen(puerto);
 console.log("servidor alojado en localhost:" + puerto)
 
 twig(app);
+
+var path = require("path");
+console.log(". = %s", path.resolve("./public"));
+console.log("__dirname = %s", path.resolve(__dirname));
