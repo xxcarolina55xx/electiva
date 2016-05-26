@@ -32,7 +32,9 @@ margin-right: 2%;
 }
 .DesPre{
 	text-align: justify;
-	position: absolute;     
+}
+.derecha{
+	margin-right: 10%;
 }
 a{
 	color: black;
@@ -61,6 +63,7 @@ ul li ul li{
 text-align: center;}
 .letra{
 	font-family: 'Coming Soon', cursive;
+	
 }
 .jumbotron{
 	background: white;
@@ -73,7 +76,4 @@ text-align: center;}
 }
 .caption{
 	text-align: justify;
-}
-#myCarousel{
-		margin-left: 20%;
 }
