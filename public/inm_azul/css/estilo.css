@@ -1,17 +1,18 @@
 @import url(data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdDb21pbmcgU29vbic7CiAgZm9udC1zdHlsZTogbm9ybWFsOwogIGZvbnQtd2VpZ2h0OiA0MDA7CiAgc3JjOiBsb2NhbCgnQ29taW5nIFNvb24nKSwgbG9jYWwoJ0NvbWluZ1Nvb24nKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9jb21pbmdzb29uL3Y2L215Ymx5T3ljTW5QTUdqZlBHLUR6UDUwRUFWeHQwRzBiaUVudHA0M1F0NkUudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0K);
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Chewy|Handlee|Cookie|Tangerine|Bad+Script);
+
 body{
 	width: 100%;
 	height: auto;
 	background: #EEEEEE;
 }
  .menu{
-	width: 25%;
 	height: 1500px;
 	overflow: auto;
 	float: left;
 	padding: 0;
 	margin: 0;
-	background: #2F77AC;
+	background: #172937;
 }
  .nosotros{
 	font-size: 12px;
@@ -28,24 +29,20 @@ body{
 .login{
 	float: right;
 	margin-top: 2%; /*Ajustar al final*/
-margin-right: 2%;
+	margin-right: 2%;
 }
 .DesPre{
 	text-align: justify;
 }
-.derecha{
-	margin-right: 10%;
+.Espaciado{
+	margin-right: 5%;
+	margin-left: 5%;
 }
-a{
-	color: black;
-	font-family: 'Coming Soon', cursive;
+.EspaciadoSuperior{
+	margin-top: 5%;
 }
-a:link{   
-	 text-decoration:none;   
-}
-a:hover{
-	background:#286090;
-}
+
+
 .LetraEspecial{
 	font-size: 1.2em;
 }
@@ -63,17 +60,113 @@ ul li ul li{
 text-align: center;}
 .letra{
 	font-family: 'Coming Soon', cursive;
-	
+	color: white;
 }
 .jumbotron{
 	background: white;
 	font-family: 'Coming Soon', cursive;
 }
 .sidebar-collapse{
-	background: #2F77AC;
+	background: #172937;
 	height: auto;
 	width: 100%;
 }
 .caption{
 	text-align: justify;
+}
+
+
+
+.fondo{
+	background: url("/public/inm_azul/img/2.jpg");
+}
+.login-box-body,
+.register-box-body {
+  background: rgba(19, 35, 47, 0.9);
+  color:white;
+  padding: 10%;
+  margin: 20%;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);  /* sombra negra al rededor del form */
+}
+.login-logo,
+.register-logo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.form-control {         /*cuadros para escribir en log/reg/recu*/
+    border-radius: 2%;
+    box-shadow: none;
+    width: 100%;
+    background: white;
+}
+.MarginAbajo{
+  margin-bottom: 0%;
+}
+.MarginArriba{
+  margin-top: 10%;
+}
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+  color: #777;
+}
+.login-logo a, .register-logo a {
+    color: green;
+    font-weight: 900;
+    font-family: 'Handlee', cursive;
+}
+a{
+	color: white;
+	font-family: 'Coming Soon', cursive;
+	font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+	color: green;
+	letter-spacing: .2em;
+}
+.button:hover, .button:focus {
+    background: #179b77;
+}
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 5%;
+    padding: 10px;
+    margin-right: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.botones{
+    background: #1abc9c;
+    color: #ffffff;
+}
+.botones:hover, .botones:focus {
+    background: #1ab188;
+    letter-spacing: .2em;
+
+}
+.botonRojo{
+background: #E91E63;
+color: white;
+letter-spacing: .1em;
+border-radius: 10%;
+border: aliceblue;
+}
+.botonRojo:hover{
+background: #D81B60;
+color: white;
+letter-spacing: .2em;
+
 }

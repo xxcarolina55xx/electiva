@@ -1,0 +1,38 @@
+    {% block css %}
+            <link href="/public/css/bootstrap.min.css" rel="stylesheet">
+            <link href="/public/inm_azul/css/estilo.css" rel="stylesheet">
+            <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+
+{% endblock %}
+
+{% block body %}
+        <div class="login-box-body">
+                <div class="login-logo ">
+                    <a href="#"><b></b>RECUPERAR  CONTRASEÑA</a>
+                </div><!-- /.login-logo -->
+                    <form action="/accion/resetear" method="post">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                <div class="form-group has-feedback MarginArriba">
+                    <input type="email" class="form-control" placeholder="Email" name="email" value="#"/>
+                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                </div>
+
+                <div class="row MarginArriba">
+                    <div class="col-xs-8">
+                        <div class="MarginAbajo MarginArriba">
+                            <a href="/login" class="text-center">Ya Tienes Cuenta? Ingresa</a> <br>      
+                            <a href="/register" class="text-center">No Posees Cuenta? Registrate!</a>
+                        </div>
+                    </div><!-- /.col -->
+                    <div class="col-xs-4">
+                        <button type="submit" class="button ">Enviar</button>
+                    </div><!-- /.col -->
+                </div>
+            </form>
+        </div><!-- /.login-box-body -->
+{% endblock %}
+
+{% block js %}
+        <script src="/public/js/jquery/dist/jquery.min.js"></script>
+        <script src="/public/js/bootstrap.min.js"></script>
+{% endblock %}

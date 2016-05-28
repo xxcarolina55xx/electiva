@@ -26,7 +26,15 @@ app.get('/a', function(req, res){
 app.get('/publicacion', function(req, res){
 	res.render('publicacion.twig');
 });
-
+app.get('/login', function(req, res){
+	res.render('login.twig');
+});
+app.get('/register', function(req, res){
+	res.render('register.twig');
+});
+app.get('/reset', function(req, res){
+	res.render('reset.twig');
+});
 /*
 app.get('/css/MyCSS.css', function(req, res){
   res.sendFile(__dirname + '/public/css/MyCSS.css');

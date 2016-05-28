@@ -4,13 +4,14 @@
 		<title>Inmobiliaria azul</title>
 		<meta charset="utf-8">
 	    {% block css %}
-	    	<link href="/public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	    	<link href="/public/css/bootstrap.min.css" rel="stylesheet">
 	    	<link href="/public/inm_azul/css/estilo.css" rel="stylesheet">
 	    	<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+
 	    {% endblock %}
 
 	</head>
-	<body>
+	<body class="fondo">
 <!-- /* ENCABEZADO */ --> 
 <div class="jumbotron">
   <div class="centrado"> 
@@ -19,8 +20,8 @@
 	  <h1>INMOBILIARIA AZUL </h1> -->
   </div>
   <div class="login">
-	  <a class="btn btn-primary btn-lg" href="http://localhost:8080/#" role="button">SING IN</a>
-	  <a class="btn btn-primary btn-lg" href="http://localhost:8080/#" role="button">SING UP</a>  	
+	  <a class="botones btn btn-primary btn-lg" href="/register" role="button">SING IN</a>
+	  <a class="botones btn btn-primary btn-lg" href="/register" role="button">SING UP</a>  	
   </div>
 
 </div>
@@ -30,70 +31,74 @@
 
 
 <!-- /* ARTICLE */ --> 
+<div class="row">
+	<div class="col-md-12">
 
-<div class="menu col-md-4">
-    <nav class="navbar-default navbar-side" role="navigation">
-        <div class="sidebar-collapse">
-            <ul class="nav" id="main-menu">
-	            <li>
-	                <a href="#"><i class='margenLI glyphicon glyphicon-home'></i> <span>Tipo De Inmueble</span><i class="margenLI"></i></a>
-	                <ul class="treeview-menu">
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Casa</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Apartamento</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Town-House</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Anexo</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Otros</a></li>
-	                </ul>
-	            </li>
-            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
- 	            <li>
-	                <a href="#"><i class='margenLI glyphicon glyphicon-briefcase'></i> <span>Tipo De Negociación</span><i class="margenLI"></i></a>
-	                <ul class="treeview-menu">
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Venta</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Alquiler</a></li>
-	                </ul>
-	            </li>
-            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
- 	            <li>
-	                <a href="#"><i class='margenLI glyphicon glyphicon-screenshot'></i> <span>Ubicación Del Inmueble</span><i class="margenLI"></i></a>
-	                <ul class="treeview-menu">
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Pais</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Estado</a></li>
-	                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Cuidad</a></li>
-	                </ul>
-	            </li>
-            </ul>
-            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
+		<div class="menu col-md-3">
+		    <nav class="navbar-default navbar-side" role="navigation">
+		        <div class="sidebar-collapse">
+		            <ul class="nav" id="main-menu">
+			            <li>
+			                <a href="#"><i class='margenLI glyphicon glyphicon-home'></i> <span>Tipo De Inmueble</span><i class="margenLI"></i></a>
+			                <ul class="treeview-menu">
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Casa</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Apartamento</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Town-House</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Anexo</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Otros</a></li>
+			                </ul>
+			            </li>
+		            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
+		 	            <li>
+			                <a href="#"><i class='margenLI glyphicon glyphicon-briefcase'></i> <span>Tipo De Negociación</span><i class="margenLI"></i></a>
+			                <ul class="treeview-menu">
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Venta</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Alquiler</a></li>
+			                </ul>
+			            </li>
+		            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
+		 	            <li>
+			                <a href="#"><i class='margenLI glyphicon glyphicon-screenshot'></i> <span>Ubicación Del Inmueble</span><i class="margenLI"></i></a>
+			                <ul class="treeview-menu">
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Pais</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Estado</a></li>
+			                    <li><a href="#" class="glyphicon glyphicon-menu-right"> Cuidad</a></li>
+			                </ul>
+			            </li>
+		            </ul>
+		            	<hr align="center" style="color: #424242;" noshade="noshade" size="1" width="100%" /><!--linea-->
 
-            <footer class="nosotros espacioArriba">
-            	<center> 
-	            	<p class="LetraEspecial letra LetraObscura">Empresas CassaPlan C.A </p><br>
-					<p class="LetraObscura">Comunicate con Nosotros</p>
-	            	<p>0414-222.66.99</p>
-	            	<br>
-	            	<p class="LetraObscura">Horarios de Trabajo</p> 
-	               	<p>De Lunes a Viernes 7:00Am A 6:00Pm</p>
-	               	<br>
-	               	<p class="LetraObscura">Siguenos en: </p>
-	               	
-	               	<img src="/public/inm_azul/img/f.png">
-	               	<img src="/public/inm_azul/img/g2.png">
-	               	<img src="/public/inm_azul/img/s.png">
-	               	<img src="/public/inm_azul/img/t.png">
-	               	<img src="/public/inm_azul/img/y.png">
-	               	<br><br>
-				 </center>	
-			</footer>
-        </div>
-    </nav>  
-</div>
+		            <footer class="nosotros espacioArriba">
+		            	<center> 
+			            	<p class="LetraEspecial letra LetraObscura">Empresas CassaPlan C.A </p><br>
+							<p class="LetraObscura">Comunicate con Nosotros</p>
+			            	<p>0414-222.66.99</p>
+			            	<br>
+			            	<p class="LetraObscura">Horarios de Trabajo</p> 
+			               	<p>De Lunes a Viernes 7:00Am A 6:00Pm</p>
+			               	<br>
+			               	<p class="LetraObscura">Siguenos en: </p>
+			               	
+			               	<img src="/public/inm_azul/img/f.png">
+			               	<img src="/public/inm_azul/img/g2.png">
+			               	<img src="/public/inm_azul/img/s.png">
+			               	<img src="/public/inm_azul/img/t.png">
+			               	<img src="/public/inm_azul/img/y.png">
+			               	<br><br>
+						 </center>	
+					</footer>
+		        </div>
+		    </nav>  
+		</div>
+
 
 	{% block body %}{% endblock %}
 <!-- /* FIN ARTICLE */ --> 
 
 	{% block js %}
-		<script src="/public/jquery/dist/jquery.min.js"></script>
-		<script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="/public/js/jquery/dist/jquery.min.js"></script>
+		<script src="/public/js/bootstrap.min.js"></script>
+
 	{% endblock %}
 </body>
 </html>
