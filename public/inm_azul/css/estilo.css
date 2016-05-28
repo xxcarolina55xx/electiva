@@ -31,8 +31,12 @@ body{
 	margin-top: 2%; /*Ajustar al final*/
 	margin-right: 2%;
 }
-.DesPre{
+.Justificado{
 	text-align: justify;
+}
+.fondoBlanco{
+	background: white;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3)
 }
 .Espaciado{
 	margin-right: 5%;
@@ -41,7 +45,9 @@ body{
 .EspaciadoSuperior{
 	margin-top: 5%;
 }
-
+.EspaciadoInferior{
+	margin-bottom: 10%;
+}
 
 .LetraEspecial{
 	font-size: 1.2em;
@@ -60,11 +66,20 @@ ul li ul li{
 text-align: center;}
 .letra{
 	font-family: 'Coming Soon', cursive;
+}
+.encabezado{
+		font-family: 'Coming Soon', cursive;
+font-size: 2em;
+}
+.letraBlanca{
 	color: white;
 }
 .jumbotron{
 	background: white;
 	font-family: 'Coming Soon', cursive;
+}
+.MargenInterno{
+	padding: 3%;
 }
 .sidebar-collapse{
 	background: #172937;
@@ -74,7 +89,10 @@ text-align: center;}
 .caption{
 	text-align: justify;
 }
-
+.descripcion{
+	text-transform: uppercase; 
+	font-weight: bolder;
+}
 
 
 .fondo{
@@ -163,6 +181,8 @@ color: white;
 letter-spacing: .1em;
 border-radius: 10%;
 border: aliceblue;
+	float: right;
+
 }
 .botonRojo:hover{
 background: #D81B60;

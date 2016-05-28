@@ -7,7 +7,9 @@ body {
   color: #5a5a5a;
 }
 
-
+#myCarousel{
+  margin-top: 2%;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
