@@ -1,0 +1,169 @@
+[33mcommit df378418f3a1a38a918919429085718461b8bf38[m
+Author: Jessi De Pin <lilijess.yo@gmail.com>
+Date:   Sun May 29 21:30:23 2016 -0400
+
+    Sistema de calificacion, reviews, diseño en general
+
+[33mcommit 8740e4cc541dfc22e4dfa16f2e2b708c46c51ae6[m
+Author: jefer <jdefreitaspinto@gmail.com>
+Date:   Sat May 28 01:35:32 2016 -0400
+
+    implementanto recarga en vivo
+
+[33mcommit 552388a7acc7a6ec0421971c947b8ddb1ed20b6b[m
+Author: Jessi De Pin <lilijess.yo@gmail.com>
+Date:   Sat May 28 01:25:15 2016 -0400
+
+    soy mala para tanto nombre de commit, mas cambios
+
+[33mcommit 9be5f050c4d02f15907c96eb66981ec35c32df88[m
+Author: Jessi De Pin <lilijess.yo@gmail.com>
+Date:   Fri May 27 23:50:34 2016 -0400
+
+    Gran Cambio visual e integracion del login
+
+[33mcommit 2715e0efd3078636fd220f1a6bd593de58b3b705[m
+Author: JessiDePin <lilijess.yo@gmail.com>
+Date:   Thu May 26 16:19:52 2016 -0400
+
+    Retoques visuales
+
+[33mcommit d7b61d63a6790d5aa62032cfb88c827e7e146e22[m
+Author: Luis Daniel Ysaya Flores <Luis Daniel Ysaya Flores>
+Date:   Thu May 26 14:51:42 2016 -0400
+
+    Arreglando estilos
+
+[33mcommit 253370cdfb8c906ead063eb4cd27957995baafae[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 13:22:22 2016 -0430
+
+    arreglado todos los path, se removio test de rutas y por ultimo un ligero fix al layout, un milagro XD
+
+[33mcommit 684a29ecf32f3ffaa5c31d9b0eec17d65ba076cd[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 13:08:45 2016 -0430
+
+    arreglando path de imagenes
+
+[33mcommit 24ec2aa4d091acff6abda0c44fcd1ae1cac01b22[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 13:04:40 2016 -0430
+
+    unos pequeños ajustes finales al gitignore
+
+[33mcommit 3e1c70bfff54544c80a71552819045468f7460f5[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 13:01:58 2016 -0430
+
+    moviendo imagenes
+
+[33mcommit 18070327109a8fec6ea785378dfbc27be822f902[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 12:51:39 2016 -0430
+
+    implementando directorio publico
+
+[33mcommit a38ef5eb2cee3e10ce170e39b585c2ee53e21c77[m
+Merge: 2203a9c e4c0d4e
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 12:24:07 2016 -0430
+
+    resolviendo merged
+
+[33mcommit 2203a9cd382ae98da7a0a943fcff0c59ce638163[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 26 12:21:28 2016 -0430
+
+    esperimentando con los path
+
+[33mcommit e4c0d4e6663e9f2c21b3e59e988751f44ba09a67[m
+Author: Jessi De Pin <Jessi De Pin>
+Date:   Sun May 22 00:55:01 2016 -0400
+
+    mas css
+
+[33mcommit eb991c5c11f89f8e2640ee308770f43bae5528c2[m
+Author: Jessi De Pin <Jessi De Pin>
+Date:   Sat May 21 18:04:26 2016 -0400
+
+    Mejorando estilos
+
+[33mcommit d35ea17c7f5bfe0780865b00d810b8decba75ac7[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Wed May 18 15:09:05 2016 -0430
+
+    agragado bootstrap 4 y intentando implementar carpeta publica
+
+[33mcommit 78123637e9ffd1e2a7d6393ab36a93a28e666ea3[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Wed May 18 14:19:29 2016 -0430
+
+    simplificando el codigo
+
+[33mcommit 48e73fb65944ea5a598d82802e25e2a23ad7776b[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Wed May 18 14:03:17 2016 -0430
+
+    error de sintaxis en el controlador frontal y agregado un fix para la version lts de node
+
+[33mcommit 423e719d6d84db60848d460888c46d2827e62c8f[m
+Merge: 1efb40e db436ee
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Wed May 18 13:54:00 2016 -0430
+
+    merged version de jessika con la mia y limpieza de codigo comentado
+
+[33mcommit 1efb40e22cfbb24b0ee8df95ba1625f993afc40e[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Wed May 18 13:49:15 2016 -0430
+
+    mas cambios al modelo y ciertos cambios a errores de normalizacion de DB
+
+[33mcommit db436eed86848fd4d0ec85256cdca9efa78b8f6d[m
+Author: Jessi De Pin <lilijess.yo@gmail.com>
+Date:   Sun May 15 23:08:00 2016 -0400
+
+    avances con fallos para resolver durante la semana
+
+[33mcommit bed204efffb9f158e596397ebd56619cf82d8e18[m
+Author: Jessi De Pin <lilijess.yo@gmail.com>
+Date:   Sun May 15 12:08:59 2016 -0400
+
+    aplicando arreglo para versiones de node antiguas
+
+[33mcommit fa3121ef857ecf98bced7b085957eff72b91e647[m
+Author: jefer <jdefreitaspinto@gmail.com>
+Date:   Sun May 8 23:50:52 2016 -0400
+
+    edicion de varios comentarios erroneos y creacion de metodos vacios de varios modelos
+
+[33mcommit d3e2d559720133ef004db64e63f3c2857ac9eee5[m
+Author: jefer <jdefreitaspinto@gmail.com>
+Date:   Sun May 8 23:43:01 2016 -0400
+
+    se añadio la creacion de la base de datos y tablas
+
+[33mcommit c35185b396bc8aaeddec37be96e883b494e6afd9[m
+Author: jefer94 <jdefreitaspinto@gmail.com>
+Date:   Thu May 5 14:25:09 2016 -0430
+
+    cambio de mongoose, a favor de mysql por problemas del team
+
+[33mcommit 22750a4c661e7e3ce62879344c85811431c96cc3[m
+Author: Jeferson De Freitas <jdefreitaspinto@gmail.com>
+Date:   Sun Apr 17 01:27:58 2016 -0430
+
+    mejora de la documentacion
+
+[33mcommit 377dbc682c02517a9487120c7552cff789a692f0[m
+Author: Jeferson De Freitas <jdefreitaspinto@gmail.com>
+Date:   Sat Apr 16 21:02:28 2016 -0430
+
+    esqueleto del proyecto
+
+[33mcommit 1abbd66ea4faee943fa72951b71ac4fa19884184[m
+Author: Alberto Rodriguez <arodriguez@unerg.edu.ve>
+Date:   Sat Apr 9 14:46:06 2016 -0430
+
+    Initial commit

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inmobiliaria azul</title>
+		<meta charset="utf-8">
+		{% block css %}
+			<link href="/public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+			<link href="/public/inm_azul/css/estilo.css" rel="stylesheet">
+			<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+		{% endblock %}
+
+	</head>
+	<body class="fondo">
+		{% block body %}{% endblock %}
+
+		{% block js %}
+			<script src="/public/jquery/dist/jquery.min.js"></script>
+			<script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+		{% endblock %}
+	</body>
+</html>

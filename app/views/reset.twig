@@ -1,24 +1,19 @@
-    {% block css %}
-            <link href="/public/css/bootstrap.min.css" rel="stylesheet">
-            <link href="/public/inm_azul/css/estilo.css" rel="stylesheet">
-            <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
-
-{% endblock %}
+{% extends 'layout_ingreso.twig' %}
 
 {% block body %}
-<body class="fondo">
+	<body class="fondo">
+		<div class="register-box-body fondo">
+		<div class="register-logo">
+			<a href="#"><b></b>RECUPERAR CONTRASEÑA</a>
+		</div>
+			<form action="/accion/reseteo" method="post">
+				<input type="hidden" name="_token" value="">
 
-        <div class="login-box-body">
-                <div class="login-logo ">
-                    <a href="#"><b></b>RECUPERAR  CONTRASEÑA</a>
-                </div><!-- /.login-logo -->
-                    <form action="/accion/resetear" method="post">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <div class="form-group has-feedback MarginArriba">
-                    <input type="email" class="form-control" placeholder="Email" name="email" value="#"/>
-                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-                </div>
-
+				<div class="form-group has-feedback">
+					<input type="email" class="form-control" placeholder="Email" name="email" value=""/>
+					<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+				</div>
+				
                 <div class="row MarginArriba">
                     <div class="col-xs-8">
                         <div class="MarginAbajo MarginArriba">
@@ -30,12 +25,7 @@
                         <button type="submit" class="button ">Enviar</button>
                     </div><!-- /.col -->
                 </div>
-            </form>
-        </div><!-- /.login-box-body -->
-</body>
-{% endblock %}
-
-{% block js %}
-        <script src="/public/js/jquery/dist/jquery.min.js"></script>
-        <script src="/public/js/bootstrap.min.js"></script>
+			</form>
+		</div><!-- /.form-box -->
+	</body>
 {% endblock %}
