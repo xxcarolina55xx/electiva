@@ -30,11 +30,6 @@ app.get('/register', function(req, res){
 app.get('/reset', function(req, res){
 	res.render('reset.twig');
 });
-/*
-app.get('/css/MyCSS.css', function(req, res){
-  res.sendFile(__dirname + '/public/css/MyCSS.css');
-});
-*/
 
 // configuraciones
 //app.use(express.static('/public'));
