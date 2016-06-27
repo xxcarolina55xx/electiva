@@ -30,6 +30,24 @@ app.get('/register', function(req, res){
 app.get('/reset', function(req, res){
 	res.render('reset.twig');
 });
+app.get('/Cliente', function(req, res){
+	res.render('Cliente.twig');
+});
+
+app.get('/usuario', function(req, res){
+	res.render('usuario.twig');
+});
+
+app.get('/resumen', function(req, res){
+	res.render('resumen.twig');
+});
+
+app.get('/favoritos', function(req, res){
+	res.render('favoritos.twig');
+});
+app.get('/preguntas', function(req, res){
+	res.render('preguntas.twig');
+});
 
 // configuraciones
 //app.use(express.static('/public'));
