@@ -5,7 +5,9 @@
 		<meta charset="utf-8">
 		{% block css %}
 			<link href="/public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+			<link href="/public/bootstrap/dist/css/prettify.css" rel="stylesheet">
 			<link href="/public/inm_azul/css/estilo.css" rel="stylesheet">
+		
 			<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 		{% endblock %}
 
@@ -84,14 +86,24 @@
 						</div>
 					</nav>  
 				</div>
-				{% block body %}{% endblock %}
+				{% block body %} {% endblock %}
 			</div>
 		</div>
 		<!-- /* FIN ARTICLE */ --> 
 
 		{% block js %}
-			<script src="/public/jquery/dist/jquery.min.js"></script>
+			<script src="/public/bootstrap/dist/js/jquery.js"></script>
 			<script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script src="/public/bootstrap/dist/js/jquery.bootstrap.wizard.js"></script>
+			<script src="/public/bootstrap/dist/js/prettify.js"></script>
+		
+			<script>
+	$(document).ready(function() {
+	  	$('#rootwizard').bootstrapWizard();
+		window.prettyPrint && prettyPrint()
+	});
+	</script>
+
 		{% endblock %}
 	</body>
 </html>
