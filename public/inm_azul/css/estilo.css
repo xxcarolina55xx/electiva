@@ -1,5 +1,4 @@
-@import url(data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdDb21pbmcgU29vbic7CiAgZm9udC1zdHlsZTogbm9ybWFsOwogIGZvbnQtd2VpZ2h0OiA0MDA7CiAgc3JjOiBsb2NhbCgnQ29taW5nIFNvb24nKSwgbG9jYWwoJ0NvbWluZ1Nvb24nKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9jb21pbmdzb29uL3Y2L215Ymx5T3ljTW5QTUdqZlBHLUR6UDUwRUFWeHQwRzBiaUVudHA0M1F0NkUudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0K);
-@import url(https://fonts.googleapis.com/css?family=Quicksand|Chewy|Handlee|Cookie|Tangerine|Bad+Script);
+
 body{
 	width: 100%;
 	height: auto;
@@ -100,6 +99,7 @@ ul li ul li{
 .fondo{
 	background: url("/public/inm_azul/img/2.jpg");
 }
+
 .login-box-body,
 .register-box-body {
 	background: rgba(19, 35, 47, 0.9);
@@ -262,4 +262,150 @@ a:hover{
 .jumbotron{
 	background: white;
 	margin-bottom: 0;
+}
+
+.preguntas{
+	color: rgb(153,153,153) ;
+	margin-left: 30px; 
+	height: 200px
+
+
+}
+.cuadro{
+ float: left;
+
+ margin: 0px;
+ border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+ border: 1px solid rgb(153,153,153);
+ height: 25px;
+ width: 40px;
+ text-align: center;
+ background: rgb(153,153,153) ;
+
+}
+
+ .preguntas p{
+ 	color: #ffffff;
+
+ }
+ hr{
+
+    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+ 
+ .texto {
+ 	margin-left: 10px;
+ }
+
+ .eliminar{
+ 	float: right;
+ 	margin-left: 
+ }
+
+ .favoritos hr{
+
+    margin: 0px;
+    border-style: inset;
+    border-width: 1px;
+    color: white;
+ 
+ }
+
+ .cabeza{
+ 	background: white;
+ }
+
+ .checkbox{
+ 	float: left;
+ 	margin: 0px;
+ }
+
+ .cuerpo{
+ 	margin-bottom: 0px;
+ 	
+ }
+ .cuerpo img{
+ 	width: 80px;
+ 	height: 65px
+
+ }
+
+ .cuerpo a{
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	color: blue;
+
+ }
+
+ .option{
+ margin: 0px;
+ float: right;
+ position: relative;
+ top: -80px;
+ margin-bottom: -30px;
+ margin-left: 10px;
+ }
+.media{
+	float left: 
+}
+
+.prueba img {
+	width: 40px;
+ 	height: 40px;
+ 	float: left;
+}
+
+.prueba{
+	float: left;
+	
+
+}
+.prueba a {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	color: blue;
+	margin: 10px  
+}
+.prueba a:hover{
+	color: black;
+	letter-spacing: 0px;
+
+
+}
+.prueba h4,h5,h6{
+	margin-left: -10px;
+
+
+}
+.prueba h3{
+ margin-right: 10px;
+}
+
+.Finalizada{
+	float: right;
+    margin-top: -10px;
+    padding-right: 32px;
+}
+
+.monto{
+	float: right;
+}
+
+.fn{
+	margin-top: 0px;
+	
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.ico{
+	max-width: 20px;
 }
